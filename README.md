@@ -12,11 +12,11 @@
 编译不想显示控制台窗口  
 ``pyinstaller --onefile --windowed --noconsole your_script.py``
 
-软件界面：  
+软件界面：   
 ![主界面](https://raw.githubusercontent.com/maplefz/IDCard-BankCard-OCR/refs/heads/main/assets/1-main.jpg)  
 
-图片样例：
+图片样例：  
 ![样例](https://raw.githubusercontent.com/maplefz/IDCard-BankCard-OCR/refs/heads/main/assets/2-sample.jpg)  
 
-输出的excel文件内容样例：
+输出的excel文件内容样例：  
 ![excel样例](https://raw.githubusercontent.com/maplefz/IDCard-BankCard-OCR/refs/heads/main/assets/3-result.jpg)  
