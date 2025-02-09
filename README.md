@@ -20,3 +20,6 @@
 
 输出的excel文件内容样例：  
 ![excel样例](https://raw.githubusercontent.com/maplefz/IDCard-BankCard-OCR/refs/heads/main/assets/3-result.jpg)  
+
+- 后记
+另外亦可以使用[腾讯云API](https://cloud.tencent.com/document/product/866/33524),免费额度为1000次/月。但是API调用方法和返回的内容均和百度不一样，需要对应修改。
