@@ -210,7 +210,7 @@ def create_gui():
     selected_output_folder = None
     
     root = tk.Tk()
-    root.title("OCR 批量处理")
+    root.title("身份证&银行卡批量识别")
     root.geometry("500x300")
 
     # 选择图片文件夹按钮
