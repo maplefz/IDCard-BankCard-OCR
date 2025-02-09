@@ -16,9 +16,7 @@
 ![主界面](https://raw.githubusercontent.com/maplefz/IDCard-BankCard-OCR/refs/heads/main/assets/1-main.jpg)  
 
 图片样例：  
-![样例](https://raw.githubusercontent.com/maplefz/IDCard-BankCard-OCR/refs/heads/main/assets/2-sample.jpg)  
-
-<img src="https://raw.githubusercontent.com/maplefz/IDCard-BankCard-OCR/refs/heads/main/assets/2-sample.jpg" width="100px">
+<img src="https://raw.githubusercontent.com/maplefz/IDCard-BankCard-OCR/refs/heads/main/assets/2-sample.jpg" width="300px">
 
 输出的excel文件内容样例：  
 ![excel样例](https://raw.githubusercontent.com/maplefz/IDCard-BankCard-OCR/refs/heads/main/assets/3-result.jpg)  
