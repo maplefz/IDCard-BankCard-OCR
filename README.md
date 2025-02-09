@@ -13,7 +13,7 @@
 ``pyinstaller --onefile --windowed --noconsole your_script.py``
 
 软件界面：   
-![主界面](https://raw.githubusercontent.com/maplefz/IDCard-BankCard-OCR/refs/heads/main/assets/1-main.jpg)  
+<img src="https://raw.githubusercontent.com/maplefz/IDCard-BankCard-OCR/refs/heads/main/assets/1-main.jpg" width="300px">
 
 图片样例：  
 <img src="https://raw.githubusercontent.com/maplefz/IDCard-BankCard-OCR/refs/heads/main/assets/2-sample.jpg" width="300px">
