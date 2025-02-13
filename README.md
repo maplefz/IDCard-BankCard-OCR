@@ -9,8 +9,10 @@
 pip install requests pandas openpyxl
 ```
 - 编译exe  
-编译设置软件图标  
-``pyinstaller --onefile --windowed --icon=your_icon.ico your_script.py``  
+编译设置软件图标
+```cmd
+pyinstaller --onefile --windowed --icon=your_icon.ico your_script.py
+```
 编译不想显示控制台窗口  
 ``pyinstaller --onefile --windowed --noconsole your_script.py``
 
