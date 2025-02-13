@@ -30,7 +30,7 @@ pyinstaller --onefile --windowed --noconsole your_script.py
 ### 更新日志
 - ocr-new
 去除pandas和openpyxl的依赖，直接导出csv文件，并且将“身份证号码”、“银行卡卡号”增加前引号以避免数字被科学计数处理。去除依赖后可以减小编译后的体积。使用目录模式编译能加快软件的打开速度。  
-  使用PowerShell编译例子
+使用PowerShell编译例子
 ```PowerShell
 py -3.13 -m PyInstaller -F -w `
 --add-data "$(& py -3.13 -c 'import PIL; print(PIL.__path__[0])');PIL" `
