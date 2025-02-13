@@ -24,11 +24,11 @@
 ### 更新日志
 - ocr-new
 去除pandas和openpyxl的依赖，直接导出csv文件，并且将“身份证号码”、“银行卡卡号”增加前引号以避免数字被科学计数处理。去除依赖后可以减小编译后的体积。使用目录模式编译能加快软件的打开速度。
-``  py -3.13 -m PyInstaller -F -w `
+  py -3.13 -m PyInstaller -F -w `
   --add-data "$(& py -3.13 -c 'import PIL; print(PIL.__path__[0])');PIL" `
   --exclude-module numpy `
   --exclude-module tkinter `
-  your.py``
+  your.py
 
 - 后记
 另外亦可以使用[腾讯云API](https://cloud.tencent.com/document/product/866/33524),免费额度为1000次/月。但是API调用方法和返回的内容均和百度不一样，需要对应修改。
