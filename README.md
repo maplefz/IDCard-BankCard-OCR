@@ -5,7 +5,9 @@
 需要将身份证正面和银行卡带卡号面合并在一张图片中  
 
 - 需要的依赖  
-``pip install requests pandas openpyxl``  
+```python
+pip install requests pandas openpyxl
+```
 - 编译exe  
 编译设置软件图标  
 ``pyinstaller --onefile --windowed --icon=your_icon.ico your_script.py``  
