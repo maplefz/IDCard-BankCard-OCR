@@ -36,7 +36,7 @@ py -3.13 -m PyInstaller -D -w `
 --python-option=-OO `
 --add-data "$(& py -3.13 -c 'import PIL; print(PIL.__path__[0])');PIL" `
 --exclude-module numpy `
---exclude-module tkinter `
+--exclude-module pandas `
 your.py
 ```
 另编译时可以使用upx进一步压缩  
