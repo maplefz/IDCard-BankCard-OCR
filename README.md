@@ -33,10 +33,17 @@ pyinstaller --onefile --windowed --noconsole your_script.py
 使用PowerShell编译例子
 ```PowerShell
 py -3.13 -m PyInstaller -D -w `
+--python-option=-OO `
 --add-data "$(& py -3.13 -c 'import PIL; print(PIL.__path__[0])');PIL" `
 --exclude-module numpy `
 --exclude-module tkinter `
 your.py
+```
+另编译时可以使用upx进一步压缩  
+下载[UPX](https://upx.github.io/)并解压。  
+在编译命令中加入  
+```PowerShell
+--upx-dir "upx文件夹路径" `
 ```
 
 - 后记
