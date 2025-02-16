@@ -1,7 +1,7 @@
 # IDCard-BankCard-OCR
 
 使用[百度智能云图片识别API](https://ai.baidu.com/tech/ocr)  识别身份证和银行卡，并导出指定字段至excel文件，带一个简单的GUI。
-填入申请的API_KEY和SECRET_KEY。免费额度：个人认证 1,000 次/月，企业认证 2,000 次/月。[收费标准：](https://ai.baidu.com/ai-doc/OCR/9k3h7xuv6)  
+填入申请的API_KEY和SECRET_KEY。免费额度：个人认证 1,000 次/月，企业认证 2,000 次/月。[收费标准：](https://ai.baidu.com/ai-doc/OCR/fk3h7xune)  
 需要将身份证正面和银行卡带卡号面合并在一张图片中  
 
 - 需要的依赖  
